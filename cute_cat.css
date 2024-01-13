@@ -1,0 +1,22 @@
+.billi{
+    height:700px;
+    width:auto;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.clk{
+    font-size:30px;
+    position: relative;
+    padding:50px 30px;
+    bottom: 500px;
+    left: 200px;
+   
+    color:black;
+    width:fit-content;
+    height:auto;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+}
