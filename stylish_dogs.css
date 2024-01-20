@@ -1,3 +1,27 @@
+.navigation {
+  overflow: hidden;
+  background-image: url(speedsters.jpg);
+  position: relative;
+  top: 2px;
+  width: 100%;
+}
+
+.navigation a {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation a:hover {
+  background: #fd6767;
+  color: rgb(4, 10, 4);
+}
 
 .kutta{
     object-position: 30px 90px;

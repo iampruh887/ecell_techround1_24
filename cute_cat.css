@@ -1,3 +1,28 @@
+.navigation {
+    overflow: hidden;
+    background-image: url(speedsters.jpg);
+    position: relative;
+    top: 2px;
+    width: 100%;
+}
+
+.navigation a {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background: #fd6767;
+    color: rgb(4, 10, 4);
+}
+
 .billi{
     height:700px;
     width:auto;
@@ -7,7 +32,7 @@
     justify-content: center;
     position:relative;
     top: 150px;
-    left:20px;
+    left:10px;
 }
 
 .clk{
@@ -15,11 +40,22 @@
     position:relative;
     padding:50px 30px;
     bottom: 400px;
-    left: 200px;
+    left: 700px;
    
     color:black;
     width:fit-content;
     height:auto;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(5px);
+}
+
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
 }
