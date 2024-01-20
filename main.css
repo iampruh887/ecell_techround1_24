@@ -63,8 +63,8 @@ body{
     backdrop-filter: blur(5px);
     position:relative;
     border-style:groove;
-    left:60%;
-    bottom:229px;
+    left:40%;
+    bottom:40px;
     width:fit-content;
     font-weight:600;
     font-size:x-large;
@@ -73,6 +73,22 @@ body{
 }
 
 .link2:hover{
+    background-image:url(hanma.webp);
     transform: scale(2.5);
-    transition-duration: 400ms;
+    transition-duration: 4000ms;
 }
+
+/* .senpai{
+    position:relative;
+    left:700px;
+    bottom:30px;
+    width:fit-content;
+    border-style: groove;
+    background-color: chartreuse;
+    font-weight: xx-large;
+    font-size:400%;
+}
+
+.senpai:hover{
+    display:none;
+} */
