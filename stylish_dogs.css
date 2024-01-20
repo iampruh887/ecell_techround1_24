@@ -3,20 +3,122 @@
     object-position: 30px 90px;
     width: fit-content;
     padding-right:0%;
+
     
 }
 
 .clk{
     position: relative;
-    bottom: 560px;
-    left: 650px;
-    color:darkorchid;
+    top:21px;
+    left: 80px;
+    color:red;
+    font-weight:bolder;
     font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
     /*background-color:azure;*/
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(5px);
     width:fit-content;
     height:auto;
+    outline-style:ridge;
+    outline-color:blue;
+    outline-width: 40px;
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.dogg{
+    position:relative;
+    bottom: 600px;
+    left:750px;
+    color:rgb(22, 15, 4);
+    /* font-size:200%; */
+  
+}
+
+h1{
+    position:relative;
+    bottom:900px;
+    left:1000px;
+    width: 400px;
+    font-size:300%;
+    outline-style: hidden;
+
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
+}
+
+.df{
+    font-size:130%;
+    position:relative;
+    bottom:900px;
+    left:1000px;
+    padding-left:1%;
+    width:fit-content;
+    outline-style:hidden;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
+    font-weight:600;
+}
+.udta_punjab{
+    position:relative;
+    bottom:700px;
+    left:900px;
+    height:500px;
+    width:auto;
+    outline-style: groove;
+    outline-width:20px;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.udta_punjab:hover{
+    /* display:block; */
+    outline-style:dotted;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
